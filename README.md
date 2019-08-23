@@ -1,6 +1,8 @@
 # pytorch-video-jupyter-docker
 Opens a Jupyter notebook. Contains pytorch libraries and PIMS for random video reads.
 
+View Dockerfile on github at https://github.com/pmorris2012/pytorch-video-jupyter-docker
+
 Pull from dockerhub at https://hub.docker.com/r/pmorris2012/pytorch-video-jupyter
 
 
