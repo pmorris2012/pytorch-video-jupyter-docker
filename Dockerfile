@@ -2,7 +2,7 @@ FROM nvidia/cuda:10.0-cudnn7-devel
 
 RUN apt-get update
 
-RUN apt-get install python3-dev python3-pip git g++ wget make libopencv-dev
+RUN apt-get install -y python3-dev python3-pip git g++ wget make libopencv-dev
 
 RUN pip3 install numpy scipy matplotlib ipython jupyter pandas sympy nose
 RUN pip3 install opencv-python 
