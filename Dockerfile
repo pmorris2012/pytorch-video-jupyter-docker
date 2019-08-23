@@ -1,5 +1,7 @@
 FROM nvidia/cuda:10.0-cudnn7-devel
 
+ARG DEBIAN_FRONTEND=noninteractive
+
 RUN apt-get update
 
 RUN apt-get install -y python3-dev python3-pip git g++ wget make libopencv-dev
